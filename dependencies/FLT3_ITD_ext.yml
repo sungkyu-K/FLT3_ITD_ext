@@ -1,0 +1,33 @@
+# THESE COMMANDS OR FILES NEED TO BE IN $PATH; OTHERWISE CHANGE TO THEIR FULL PATHNAME 
+TOOLS:
+  SAMTOOLS: "samtools"
+  BEDTOOLS: "bamToFastq"
+  BWA: "bwa"
+  SUMACLUST: "sumaclust"
+  JAVA: "java"
+  FGBIO: "fgbio.jar"
+  BBDUK: "bbduk.sh"
+  PICARD: "picard.jar"
+
+PARAMS:
+  minToCluster: 1
+  maxEditDist: 5
+  maxInsAllowed: 2
+  maxDelAllowed: 2
+  maxClipAllowed: 3
+  minClipToAlign: 9
+  manualItdCheckLength: 12
+  buffer: 10
+  clipMatchRatioThreshold: 0.5
+  maxITDsize: 500
+  noisyMinItdSize: 200
+  noisyMinNocovRatio: 0.5
+  bwaSeedLength: 15
+  bwaThreshold: 12
+  bwaClipsSeedLength: 6
+  bwaClipsThreshold: 9
+  proc_manual_clipalign: 0
+  proc_index: 0
+  proc_one_itd_per_size: 0
+  proc_singleread_itds: 0
+  proc_anylength_itds: 0
